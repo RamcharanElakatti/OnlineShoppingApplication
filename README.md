@@ -1,12 +1,140 @@
-# React + Vite
+# Online Shopping Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Online Shopping Application** built with **ReactJS** (frontend) and **Spring Boot** (backend). It allows users to browse products, add items to the cart, view their orders, and manage their wishlist. Users can securely log in and access their orders and wishlist.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Homepage**: Display featured products for users to browse.
+- **Product Page**: View detailed product information, including price, rating, and description.
+- **Cart**: Add products to the shopping cart and view them before checkout.
+- **My Orders**: View past orders after logging in.
+- **Wishlist**: Save products for later purchase (only accessible when logged in).
+- **Login/Registration**: Users can securely log in and register for a personalized experience.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**:
+  - ReactJS
+  - React Router for routing
+  - Bootstrap for styling
+  - Axios for API calls
+
+
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js** (for ReactJS)
+- **Java** (for Spring Boot)
+- **MySQL** (or another relational database, if needed)
+
+### Installing Dependencies
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+Frontend (ReactJS):
+
+Navigate to the frontend directory and install the dependencies:
+
+bash
+Copy code
+cd frontend
+npm install
+Backend (Spring Boot):
+
+
+Frontend:
+To run the ReactJS application locally, navigate to the frontend folder and start the development server:
+
+bash
+Copy code
+npm start
+This will start the React development server on http://localhost:5173.
+
+
+
+How to Use
+Login/Register: Users need to log in or register first to access protected features such as My Orders and Wishlist.
+
+Browse Products: View the available products on the homepage or the product page.
+
+Add to Cart: Click the "Buy Now" button on a product to add it to the cart.
+
+View Cart: Go to the Cart page to review the products added to the cart.
+
+My Orders: Once logged in, users can view their past orders.
+
+Wishlist: Users can save products to their wishlist for later purchasing.
+
+Folder Structure
+bash
+Copy code
+/frontend          # ReactJS frontend code
+  /src
+    /components    # React components (e.g., ProductCard, Cart, MyOrders)
+    /styles        # CSS or SCSS files
+
+
+.gitignore
+The following files and folders are ignored in Git (they should not be committed to the repository):
+
+txt
+Copy code
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+build/
+.env
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Contributing
+We welcome contributions to this project. If you'd like to help improve the project, follow these steps:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature-xyz)
+
+Make your changes
+
+Commit your changes (git commit -am 'Add feature xyz')
+
+Push to the branch (git push origin feature-xyz)
+
+Create a new Pull Request
+
+License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+yaml
+Copy code
+
+---
+
+### Notes:
+- **Replace the placeholder `https://github.com/RamcharanElakatti/OnlineShoppingApplication`** with your actual GitHub username and repository name in the cloning section.
+- **If you’re deploying your app** or have other specific deployment steps (like setting up the backend API), you can add extra instructions under a deployment section.
+  
