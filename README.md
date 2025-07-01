@@ -34,8 +34,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/RamcharanElakatti/OnlineShoppingApplication.git
 Frontend (ReactJS):
 
 Navigate to the frontend directory and install the dependencies:
@@ -134,7 +133,4 @@ Copy code
 
 ---
 
-### Notes:
-- **Replace the placeholder `https://github.com/RamcharanElakatti/OnlineShoppingApplication`** with your actual GitHub username and repository name in the cloning section.
-- **If you’re deploying your app** or have other specific deployment steps (like setting up the backend API), you can add extra instructions under a deployment section.
-  
+
